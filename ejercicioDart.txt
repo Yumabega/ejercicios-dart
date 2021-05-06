@@ -35,6 +35,19 @@ void main() {
   whileCount();
   dowhileWrap();
   varnumberWrap();
+  listWrap();
+}
+
+void listWrap() {
+  var list = ['Apples', 'bananas', 'oranges'];
+  list.forEach(item {
+    print('La primera fruta es ${item}');
+  });
+  
+
+  for( int index = 0; index < list.length; index ++){
+    print( 'La fruta desde un for es ${ list[index]}');
+  }
 }
   
 
